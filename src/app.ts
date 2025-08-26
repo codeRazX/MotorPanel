@@ -1,7 +1,7 @@
 import express from 'express'
 import colors from 'colors'
 import morgan from 'morgan'
-import './config/connectionDB.js'
+import './config/connectionDB'
 import serviceRouter from './routes/serviceRouter'
 import authRouter from './routes/authRouter'
 import employeeRouter from './routes/employeeRouter'
