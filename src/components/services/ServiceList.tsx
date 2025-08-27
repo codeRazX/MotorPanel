@@ -23,7 +23,7 @@ export default function ServiceList({ service }: ServiceListProps) {
 
   return (
     <>
-    <li className="w-full ring-1 ring-cyan-300/5 px-10 bg-gradient-to-r  from-white to-slate-100 shadow-lg">
+    <li className="w-full ring-1 ring-cyan-300/5 px-5 xs:px-10 bg-gradient-to-r  from-white to-slate-100 shadow-lg">
       <Link 
         to={`/services/${service._id}`} 
         className="flex flex-col gap-5"

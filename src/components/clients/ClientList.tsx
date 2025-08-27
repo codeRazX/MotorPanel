@@ -20,7 +20,7 @@ export default function ClientList({ client }: ClientListProps) {
   }, [client])
 
   return (
-    <li className="w-full ring-1 ring-cyan-300/5 px-10 pt-10 bg-gradient-to-r from-white to-slate-100 shadow-lg">
+    <li className="w-full ring-1 ring-cyan-300/5 p-5 xs:p-10 bg-gradient-to-r from-white to-slate-100 shadow-lg">
       <Link 
         to={`/clients/${client._id}`} 
         className="flex flex-col gap-5"

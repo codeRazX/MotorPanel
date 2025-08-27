@@ -18,7 +18,7 @@ export default function ServicesDetails({service}: ServiceDetailsProps) {
   const [showRepairs, setShowRepairs] = useState(false)
   
   return (
-    <div className="my-10 bg-white shadow-lg p-10 space-y-5 divide-y divide-neutral-200">
+    <div className="my-10 bg-white shadow-lg p-5 xs:p-10 space-y-5 divide-y divide-neutral-200">
       <div className="space-y-2 pb-5">
         <FieldDetails label="Servicio Número" value={service.serviceNumber.toString()} capitalize={false}/>
         <FieldDetails label="Registrado" value={formatDate(service.createdAt)} capitalize={false}/>

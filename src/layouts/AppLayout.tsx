@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import NavMenu from "@/components/ui/NavMenu";
 import Logo from "@/components/ui/Logo";
 import useAuthentication from "../hooks/useAuthentication";
-import SkeletonLayout from "@/components/ui/skeletons/SkeletonLayoutApp";
+import Spinner from "@/components/ui/Spinner";
 
 export default function AppLayout() {
 
   const {data, isLoading} = useAuthentication()
-  if (isLoading) return <SkeletonLayout />
+  if (isLoading) return <Spinner />
   
   if (data) return (
     <>

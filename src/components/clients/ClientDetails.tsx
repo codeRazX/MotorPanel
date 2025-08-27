@@ -24,7 +24,7 @@ export default function ClientDetails({ client }: ClientDetailsProps) {
   const [showServicesPending, setServicesPending] = useState(false)
 
   return (
-    <div className="my-10 bg-white shadow-lg p-10 space-y-5 divide-y divide-neutral-200">
+    <div className="my-10 bg-white shadow-lg p-5 xs:p-10 space-y-5 divide-y divide-neutral-200">
       <div className="space-y-2 pb-5">
         <FieldDetails label="Nombre" value={client.slug}/>
         <FieldDetails label="Contacto" value={client.contact ? client.contact.toString() : "No hay datos"} capitalize={false}/>

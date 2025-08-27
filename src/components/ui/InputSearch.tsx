@@ -49,6 +49,7 @@ export default function InputSearch({placeholder, path, search} : InputSearchPro
         noValidate
         onSubmit={handleSubmit(handleSearch)}
         className='flex-1'
+        autoComplete='off'
       >
         <label htmlFor="search" className='sr-only'>Escribe en el siguiente campo los filtros de búsqueda:</label>
         <input 
