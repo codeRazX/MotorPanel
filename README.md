@@ -1,7 +1,7 @@
 # 🧩 MotorPanel
 
 > Aplicación web para la gestión integral de talleres mecánicos.  
-> [Versión en inglés disponible aquí](#english-version)
+> [English version](./README.en.md)
 
 ---
 
@@ -74,7 +74,7 @@ Centro de operaciones desde donde se accede a todas las secciones de la aplicaci
 ### 🛠️ Crear o editar un servicio
 
 Formulario con múltiples secciones, validación y relaciones entre modelos como empleados y clientes.  
-Esta pantalla representa el formulario de servicio, pero todos los modelos (servicios, empleados y clientes) se pueden editar y crear, salvo los clientes, cuya creación la gestion el sistema en automático.
+Esta pantalla representa el formulario de servicio, pero todos los modelos (servicios, empleados y clientes) se pueden editar y crear, salvo los clientes, cuya creación la gestiona el sistema en automático.
 
 <img width="1895" height="943" alt="Editar servicio" src="https://github.com/user-attachments/assets/832a01c0-4b16-444d-990b-f250573bbd88" />
 
@@ -187,6 +187,7 @@ Ejemplo adicional de diseño responsivo, en este caso para la sección de perfil
 ---
 
 ✅ **Toda la aplicación ha sido diseñada para ofrecer una experiencia fluida en todos los dispositivos**, garantizando una navegación accesible, moderna y profesional.
+
 
 
 
