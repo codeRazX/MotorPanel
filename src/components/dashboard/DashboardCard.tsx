@@ -21,9 +21,9 @@ export default function DashboardCard({card} : DashboardCardProps) {
       <p className="font-light text-neutral-50 text-shadow-2xs break-words">{card.description}</p>
       
       <div className={`hidden sm:block absolute -bottom-8 -right-8 -rotate-30 bg-neutral-100 rounded-full size-25 ${card.slug === 'servicios' ? 'md:size-30 lg:size-40 lg:-right-10 '  : 'xl:size-30'}`}>
-        <picture className="w-full" role="img" aria-label={`Imagen ${card.name}`}>
+        <picture className="w-full aspect-square" role="img" aria-label={`Imagen ${card.name}`}>
           <source srcSet={`/${card.slug}.webp`}/>
-          <img src={`/${card.slug}.png`} alt={`Imagen ${card.name}`} />
+          <img src={`/${card.slug}.png`} alt={`Imagen ${card.name}`} className="w-full h-full object-contain" loading="lazy"/>
         </picture>
       </div>
     </Link>
