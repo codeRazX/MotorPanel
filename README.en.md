@@ -16,7 +16,8 @@
 - 👤 Automatic creation of clients if they don’t exist, with intelligent autocompletion for client data and vehicles  
 - 🚗 Ability to associate vehicles with clients, with options to edit or delete  
 - 🧰 Employee assignment to services, with control over productivity, salary, position, and start date  
-- 🔄 Status updates on services, including options to add repairs, apply VAT, and calculate totals  
+- 🔄 Status updates on services, including options to add repairs, apply VAT, and calculate totals
+- 🔔 Notification system to provide real-time feedback to the user: informs about successfully completed actions, errors, or relevant warnings 
 - 🔗 Cross-navigation between related models: from clients to their services, and from services to associated employees  
 - 🗑️ Record deletion, with automatic updates across all relationships  
 - 🧑‍💼 Profile panel for editing personal details like name, email, and password
