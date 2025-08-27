@@ -121,7 +121,7 @@ El usuario debe escribir una palabra clave como medida de seguridad, y el modal 
 Sistema de paginación moderno, bonito y responsivo para todos los listados masivos.  
 Estilo elíptico: `< 1 2 3 ... 7 >`.
 
-<img width="1918" height="947" alt="Paginación" src="https://github.com/user-attachments/assets/dd7a5cae-3177-4439-8806-1a5e507e33d5" />
+<img width="1918" height="950" alt="Image" src="https://github.com/user-attachments/assets/24729564-c57c-4a35-ab06-082b065da252" />
 
 ---
 
@@ -187,5 +187,6 @@ Ejemplo adicional de diseño responsivo, en este caso para la sección de perfil
 ---
 
 ✅ **Toda la aplicación ha sido diseñada para ofrecer una experiencia fluida en todos los dispositivos**, garantizando una navegación accesible, moderna y profesional.
+
 
 
