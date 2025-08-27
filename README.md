@@ -17,6 +17,7 @@
 - 🚗 Asociación de vehículos a clientes, con posibilidad de editar o eliminar
 - 🧰 Asignación de empleados a servicios, con control de productividad, salario, puesto y fecha de alta
 - 🔄 Modificación del estado de los servicios, con opción de añadir reparaciones, aplicar IVA y calcular totales
+- 🔔 Sistema de notificaciones para proporcionar feedback en tiempo real al usuario: se informa sobre acciones completadas con éxito, errores o advertencias relevantes
 - 🔗 Navegación cruzada entre modelos relacionados: desde un cliente puedes ver sus servicios, desde un servicio sus empleados, etc.
 - 🗑️ Eliminación de registros con actualización automática en todas las relaciones
 - 🧑‍💼 Panel de perfil para modificar datos personales como nombre, email y contraseña
@@ -187,6 +188,7 @@ Ejemplo adicional de diseño responsivo, en este caso para la sección de perfil
 ---
 
 ✅ **Toda la aplicación ha sido diseñada para ofrecer una experiencia fluida en todos los dispositivos**, garantizando una navegación accesible, moderna y profesional.
+
 
 
 
