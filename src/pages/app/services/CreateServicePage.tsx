@@ -45,7 +45,7 @@ export default function CreateServicePage() {
 
         <FormProvider {...methods}>
           <form
-            className="my-10 bg-white shadow-lg p-10 space-y-5 relative"
+            className="my-10 bg-white shadow-lg p-5 sm:p-10 space-y-5 relative"
             noValidate
             onSubmit={methods.handleSubmit(handleCreateService)}
           >

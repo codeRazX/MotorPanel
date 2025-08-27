@@ -60,7 +60,7 @@ export default function ServiceAddRepair({backendErrors}: ServiceAddRepairProps)
               type="number"
               id={`repairs-${index}-quantity`}
               placeholder="Ej: 1"
-              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400"
+              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400 h-10"
               {...register(`repairs.${index}.quantity`, {
                 required: 'La cantidad es obligatoria',
                 valueAsNumber: true,
@@ -80,7 +80,7 @@ export default function ServiceAddRepair({backendErrors}: ServiceAddRepairProps)
               type="number"
               id={`repairs-${index}-price`}
               placeholder="Ej: 50"
-              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400"
+              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400 h-10"
               {...register(`repairs.${index}.price`, {
                 required: 'El precio es obligatorio',
                 valueAsNumber: true,
@@ -98,7 +98,7 @@ export default function ServiceAddRepair({backendErrors}: ServiceAddRepairProps)
             </label>
             <select
               id={`repairs-${index}-type`}
-              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400"
+              className="w-full p-2 border border-slate-300 focus:outline-0 focus:border-cyan-400 h-10"
               defaultValue="Unit"
               {...register(`repairs.${index}.type`, {
                 required: "El tipo es obligatorio",

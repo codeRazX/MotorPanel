@@ -40,7 +40,7 @@ export default function NewAccountPage() {
       </p>
 
       <form 
-        className="bg-white p-10 space-y-5 my-10" 
+        className="bg-white p-5 sm:p-10 space-y-5 my-10" 
         noValidate
         onSubmit={handleSubmit(handleCreateAccount)}
         >

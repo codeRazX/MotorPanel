@@ -78,7 +78,7 @@ export default function CompleteServicePage () {
     {isLoading ? <SkeletonServiceEdit /> : (
       <FormProvider {...methods}>
         <form
-          className="my-10 bg-white shadow-lg p-10 space-y-5"
+          className="my-10 bg-white shadow-lg p-5 sm:p-10 space-y-5"
           noValidate
           onSubmit={handleSubmit(handleEditService)}
         >

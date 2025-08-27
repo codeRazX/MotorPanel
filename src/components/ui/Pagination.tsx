@@ -15,11 +15,11 @@ export default function Pagination({totalPages, currentPage} : PaginationProps )
 
 
   return (
-    <div className="w-max mx-auto flex gap-1 h-12">
+    <div className="max-w-screen-xl flex justify-center items-center overflow-x-auto xs:overflow-hidden mx-auto gap-1 h-10 xs:h-12">
 
       {+currentPage > 1 && (
         <ChevronLeftIcon 
-          className="rounded-full px-4 py-2 text-sm text-slate-900 ring-inset ring-1 ring-slate-300 cursor-pointer size-12 bg-gradient-to-r from-cyan-50 to-cyan-100"
+          className="rounded-full px-3 xs:px-4 py-2 text-sm text-slate-900 ring-inset ring-1 ring-slate-300 cursor-pointer size-10 xs:size-12 bg-gradient-to-r from-cyan-50 to-cyan-100"
           onClick={() => navigate(updatedQueryUrl('page', +currentPage - 1))}
         />
       )}
@@ -27,20 +27,20 @@ export default function Pagination({totalPages, currentPage} : PaginationProps )
       {pages.map((page, index) => (  
         page === '...' ? 
           (
-            <span className="px-5 h-full text-sm text-gray-900 ring-1 ring-inset shadow ring-slate-300 rounded-full font-medium flex items-center bg-gradient-to-r from-cyan-50 to-cyan-100">{page}</span>
+            <span className="px-3 xs:px-5 h-full text-sm text-gray-900 ring-1 ring-inset shadow ring-slate-300 rounded-md xs:rounded-full font-medium flex items-center bg-gradient-to-r from-cyan-50 to-cyan-100">{page}</span>
           ) : 
           (
             <Link
               key={`${page}-${index}`}
               to={updatedQueryUrl('page', page)}
-              className={`px-5 h-full text-sm text-gray-900 ring-1 ring-inset shadow ring-slate-300 rounded-full font-medium flex items-center ${+currentPage === page? 'bg-cyan-200' : 'bg-gradient-to-r from-cyan-50 to-cyan-100'}`}
+              className={`px-3 xs:px-5 h-full text-sm text-gray-900 ring-1 ring-inset shadow ring-slate-300 rounded-md xs:rounded-full font-medium flex items-center ${+currentPage === page? 'bg-cyan-200' : 'bg-gradient-to-r from-cyan-50 to-cyan-100'}`}
             >{page}</Link>
           )
         ))}
 
        {+currentPage < totalPages && (
         <ChevronRightIcon 
-          className="rounded-full px-4 py-2 text-sm text-black ring-inset ring-1 ring-slate-300 cursor-pointer size-12 bg-gradient-to-r from-cyan-50 to-cyan-100"
+          className="rounded-full px-3 xs:px-4 py-2 text-sm text-black ring-inset ring-1 ring-slate-300 cursor-pointer size-10 xs:size-12 bg-gradient-to-r from-cyan-50 to-cyan-100"
           onClick={() => navigate(updatedQueryUrl('page',+currentPage + 1))}
         />
       )}

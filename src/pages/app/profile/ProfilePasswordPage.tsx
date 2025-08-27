@@ -39,7 +39,7 @@ export default function ProfilePasswordPage() {
       </div>
       
       <form 
-        className=" max-w-3xl mx-auto p-10 space-y-5"
+        className=" max-w-3xl mx-auto p-5 sm:p-10 space-y-5"
         noValidate
         onSubmit={handleSubmit(handleEditProfilePassword)}
         >

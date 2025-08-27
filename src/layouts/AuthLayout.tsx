@@ -10,8 +10,8 @@ export default function AuthLayout() {
   
   return (
    
-    <div className="bg-gradient-to-bl from-slate-600 via-slate-800 to-slate-700 min-h-screen pt-10 pb-20">
-      <div className="py-5 w-96 mx-auto">
+    <div className="bg-gradient-to-bl from-slate-600 via-slate-800 to-slate-700 min-h-screen pt-10 pb-20 overflow-hidden">
+      <div className="py-5 px-5 xs:px-0 w-80 xs:w-96 mx-auto">
         <Link className="cursor-pointer" to={'/auth/login'}>
           <Logo />
         </Link>

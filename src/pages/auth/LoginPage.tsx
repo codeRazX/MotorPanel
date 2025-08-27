@@ -30,7 +30,7 @@ export default function LoginPage() {
   return (
     <>
       <form 
-      className="bg-white p-10 space-y-5"
+      className="bg-white p-5 sm:p-10 space-y-5"
       noValidate
       onSubmit={handleSubmit(handleLogin)}
       >
